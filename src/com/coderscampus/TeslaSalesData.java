@@ -7,8 +7,8 @@ public class TeslaSalesData {
 	private String model;
 	private LocalDate date;
 	private int sales;
-	
-	public TeslaSalesData (String model, LocalDate date, int sales) {
+
+	public TeslaSalesData(String model, LocalDate date, int sales) {
 		this.model = model;
 		this.date = date;
 		this.sales = sales;
@@ -44,11 +44,4 @@ public class TeslaSalesData {
 		return "TeslaSalesData [model=" + model + ", date=" + date + ", sales=" + sales + "]";
 	}
 
-	
-	
-	
-
 }
-
-
-
